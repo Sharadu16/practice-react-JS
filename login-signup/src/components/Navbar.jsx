@@ -13,7 +13,7 @@ const Navbar = () => {
         <div style={{border:"1px solid black", width:"100px", height:"40px", backgroundColor:"black", color:"white", paddingTop:"10px"}}>About us</div>
         {
             isAuthenticated && (
-                <div style={{border:"1px solid black", width:"100px", height:"40px"}}>{user.name}</div>
+                <div style={{width:"auto", height:"auto"}}><h3>{user.name}</h3></div>
             )
         }
         <div style={{border:"1px solid black", width:"100px", height:"40px", backgroundColor:"maroon", color:"white", paddingTop:"10px"}}>
